@@ -1,7 +1,7 @@
 # Storage Account Blobs to Azure Sentinel
 This custom Azure Sentinel Data connector ingests Azure Storage Account Blobs to Azure Sentinel
 
-![Auth0LogsIngestionFlow](./images/Auth0LogsIngestionFlow.PNG) 
+![LogsIngestionFlow](./images/LogsIngestionFlow.PNG) 
 
 ## **Pre-requisites**
 
@@ -23,10 +23,7 @@ This custom Azure Sentinel Data connector ingests Azure Storage Account Blobs to
 	"Workspace Key": Azure Log Analytics Workspace Key
 	```
 
-## Configuration Steps to Ingest Auth0 Logs
+## Configuration Steps
 
 1. Pre-requisites deployment step created Azure Storage Account called <<Function App Name>><<uniqueid>>sa and "logssource" container, 
 
-3. From the Storage Account Settings section, click Access keys. Copy either storage account key value; you will need it in the next section
-
-4. Configure [Export Logs to Azure Blob Storage](https://auth0.com/docs/extensions/export-logs-to-azure-blob-storage#configure-the-extension) extension
