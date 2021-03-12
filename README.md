@@ -25,5 +25,5 @@ This custom Azure Sentinel Data connector ingests Azure Storage Account Blobs to
 
 ## Configuration Steps
 
-1. Pre-requisites deployment step created Azure Storage Account called <<Function App Name>><<uniqueid>>sa and "logssource" container, 
+1. Pre-requisites deployment step created Azure Storage Account called ```<<Function App Name>><<uniqueid>>sa``` and "logssource" container, 
 
